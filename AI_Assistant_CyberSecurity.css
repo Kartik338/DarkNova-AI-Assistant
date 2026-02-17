@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: black;
+    color: #00ff99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.app {
+    width: 400px;
+    background: #111;
+    border: 2px solid #00ff99;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.status {
+    font-size: 12px;
+    color: #00ff99;
+}
+
+.tagline {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.chat-box {
+    flex: 1;
+    overflow-y: auto;
+    border: 1px solid #00ff99;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.message {
+    margin-bottom: 8px;
+}
+
+.user {
+    color: #00ff99;
+}
+
+.bot {
+    color: #00ccff;
+}
+
+.input-area {
+    display: flex;
+    gap: 5px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    background: black;
+    border: 1px solid #00ff99;
+    color: #00ff99;
+}
+
+button {
+    padding: 8px;
+    background: #00ff99;
+    border: none;
+    cursor: pointer;
+}
